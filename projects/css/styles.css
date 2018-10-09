@@ -1,0 +1,108 @@
+* {
+  box-sizing: border-box;
+}
+        
+body {
+  margin: 0; 
+  font-family: 'Roboto', sans-serif;
+  font-size: 17px; 
+  line-height: 140%;
+  color: #fff;
+  background: #000;
+}
+
+#main {
+  position: fixed; 
+  top: 0; 
+  left: 0; 
+  width: 100%; 
+  height: 100%;
+}
+
+.noselect {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+#overlay {
+  border-right: 1px solid rgba(255, 255, 255, .07); 
+  position: fixed; 
+  opacity: .8; 
+  background: #000; 
+  top: 0; 
+  left: 0; 
+  width: 660px; 
+  height: 100%;
+}
+
+#switch {
+  position: fixed; 
+  top: 10px; 
+  right: 10px; 
+  font-size: 1.5em;
+  z-index: 2;
+}
+
+#switch-on, #switch-off {
+  cursor: pointer;
+}
+
+#switch-off {
+  display: none;
+}
+
+h2 {
+  font-size: 23px;
+}
+
+h2, h3, h4 {
+  margin-top: 1.3em;
+}
+
+a, a:hover, a:active, a:visited {
+  color: #00b2fc;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+pre {
+  padding: .85em 1em .8em 1em;
+  background: none;
+  color: #fff;
+  border: none;
+  line-height: 140%;
+  font-size: 15px;
+  background: rgba(255, 255, 255, .04);
+}
+ 
+hr {
+  -webkit-box-shadow: 0px 0px 14px 2px rgba(255, 25, 40, .65);
+  -moz-box-shadow: 0px 0px 14px 2px rgba(255, 25, 40, .65);
+  box-shadow: 0px 0px 14px 2px rgba(255, 25, 40, .65);
+  border-color: #ffa928;
+  margin: .7em 0;
+}
+
+.content {
+  width: 660px; 
+  position: absolute; 
+  padding: 44px;
+  z-index: 2;
+}
+
+p.intro {
+  font-size: 32px; 
+  margin-bottom: 0; 
+  font-weight: lighter;
+  line-height: 130%;
+}
+
+h4 {
+  margin: 0;
+}

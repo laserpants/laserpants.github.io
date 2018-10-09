@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+  <title></title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,700">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+  <div id="main"></div>
+  <div id="overlay"></div>
+  <div id="switch" class="noselect">
+    <i id="switch-off" class="fa-li fa fa-toggle-off"></i><i id="switch-on" class="fa-li fa fa-toggle-on"></i>
+  </div>
+  <div class="content">
+    <p class="intro">
+      Functional programming • Haskell<br />JS &amp; React • C/Modern C++ • Qt
+    </p>
+    <hr />
+    <p class="baz">
+      Below are some of my projects:
+    </p>
+    <h2>
+      Voxbox client
+    </h2>
+    <p>
+      The Voxbox is a hardware device developed by Farm Radio International to support radio broadcasters in sub-saharan Africa. The client UI is a browser-based JavaScript single-page application, built on the Polymer web component library.
+    </p>
+    <ul class="fa-ul">
+      <li>
+        <i class="fa-li fa fa-check"></i>
+        <a href="https://laserpants.github.io/demo-ui">Demo</a> (no hardware is connected)
+      </li>
+      <li>
+        <i class="fa-li fa fa-check"></i>
+        <a href="https://laserpants.github.io/demo-ui/?no_connection=true">Error screen</a>
+      </li>
+    </ul>
+    <h2>
+      Hashids
+    </h2>
+    <p>
+      This is a Haskell port of Hashids &ndash; a library used to encode numbers to a format suitable to appear in visible places like urls. It converts numbers like 347 into a string like <code>yr8</code>, or a list of numbers like [27, 986] into <code>3kTMd</code>.
+    </p>
+    <ul class="fa-ul">
+      <li><i class="fa-li fab fa-github"></i><a href="https://github.com/laserpants/hashids-haskell">GitHub</a></li>
+      <li><i class="fa-li fa fa-check"></i><a href="http://hashids.org">hashids.org</a></li>
+      <li><i class="fa-li fas fa-box-open"></i><a href="http://hackage.haskell.org/package/hashids">Hackage package</a></li>
+    </ul>
+    <h2>
+      Qt Material Design Desktop Widgets
+    </h2>
+    <p>
+      C++/Qt widgets-based implementation of the <b>Material Design</b> specification.
+    </p>
+    <ul class="fa-ul">
+      <li><i class="fa-li fab fa-github"></i><a href="https://github.com/laserpants/qt-material-widgets">GitHub</a></li>
+      <li><i class="fa-li fab fa-youtube"></i><a href="https://www.youtube.com/watch?v=21UMeNVBPU4">YouTube</a></li>
+    </ul>
+    <h2>
+      mbs
+    </h2>
+    <p>
+      A <b>C</b> command line tool to keep track of the amount of data sent and received over a network interface. This can be convenient for monitoring data usage against a pre-paid bundle or some other fixed usage limit.
+    </p>
+    <ul class="fa-ul">
+      <li><i class="fa-li fab fa-github"></i><a href="https://github.com/laserpants/mbs">GitHub</a></li>
+      <li><i class="fa-li fa fa-book"></i><a href="https://laserpants.github.io/mbs">Documentation</a></li>
+    </ul>
+    <h2>
+      Liquid Epsilon
+    </h2>
+    <p>
+      A <b>smorgasbord</b> of modules to assist in building single-page, client-side web applications, using Haskell and the UHC compiler.
+    </p>
+    <ul class="fa-ul">
+      <li><i class="fa-li fa fa-check"></i><a href="http://laserpants.github.io/liquid-epsilon/">Project home page</a></li>
+      <li><i class="fa-li fa fa-book"></i><a href="http://laserpants.github.io/liquid-epsilon/documentation.html">Documentation</a></li>
+      <li><i class="fa-li fab fa-github"></i><a href="https://github.com/laserpants/liquid-epsilon">GitHub</a></li>
+    </ul>
+    <h2>
+      fuzzyset-haskell
+    </h2>
+    <p>
+      A fuzzy string set data structure for approximate string matching. It takes an input string, matches it against the entries of the set and returns a list of results ordered by similarity score, with the closest match first.
+    </p>
+    <ul class="fa-ul">
+      <li><i class="fa-li fab fa-github"></i><a href="https://github.com/laserpants/fuzzyset-haskell">GitHub</a></li>
+      <li><i class="fa-li fas fa-box-open"></i><a href="http://hackage.haskell.org/package/fuzzyset">Hackage package</a></li>
+      <li><i class="fa-li fa fa-book"></i><a href="http://hackage.haskell.org/package/fuzzyset-0.1.0.6/docs/Data-FuzzySet.html">Documentation</a></li>
+    </ul>
+    <h2>
+      Dyckword
+    </h2>
+    <p>
+      A Haskell library for working with binary <b>Dyck words</b>. In formal language theory and combinatorics, the Dyck language consists of all strings of evenly balanced left and right parentheses.
+    </p>
+    <ul class="fa-ul">
+      <li><i class="fa-li fab fa-github"></i><a href="https://github.com/laserpants/dyckword">GitHub</a></li>
+      <li><i class="fa-li fa fa-book"></i><a href="http://hackage.haskell.org/package/dyckword-0.1.0.4/docs/Math-DyckWord-Binary.html">Documentation</a></li>
+      <li><i class="fa-li fas fa-box-open"></i><a href="https://hackage.haskell.org/package/dyckword">Hackage package</a></li>
+    </ul>
+    <h4>Example:</h4>
+    <pre>rank $ fromText' "(())()(((())))"
+480</pre>
+    <h2>
+      React Shopping Cart Starter Kit
+    </h2>
+    <p>
+      Reusable shopping cart component for React with no extra fluff.
+    </p>
+    <ul class="fa-ul">
+      <li><i class="fa-li fab fa-github"></i><a href="https://github.com/principle-systems/react-shopping-cart-starter-kit">GitHub</a></li>
+      <li><i class="fa-li fa fa-check"></i><a href="http://principle-systems.github.io/react-shopping-cart-starter-kit/examples/index-bootstrap.html">Demo #1</a> (plain)</li>
+      <li><i class="fa-li fa fa-check"></i><a href="http://principle-systems.github.io/react-shopping-cart-starter-kit/examples/index-drag-drop.html">Demo #2</a> (drag and drop)</li>
+    </ul>
+    <h2>
+      Web &amp; graphic design
+    </h2>
+    <p>
+      These are from some years back.
+    </p>
+    <ul class="fa-ul">
+      <li>
+        <i class="fa-li fa fa-check"></i>
+        <a href="web/index.html">Web designs</a>
+      </li>
+      <li>
+        <i class="fa-li fa fa-check"></i>Adobe Flash (AS3) component: <a href="http://atomic.batcave.net/cv/carousel/index.html">Image carousel</a>
+      </li>
+    </ul>
+    <h2>
+      Blogs etc.
+    </h2>
+    <p>
+      Some blog posts and tutorials&hellip;
+    </p>
+    <ul class="fa-ul">
+      <li>
+        <i class="fa-li fa fa-graduation-cap"></i>
+        <a href="http://thesyntacticsugar.com.preview.binero.se/sockets-programming-in-c-part-i/">BSD sockets tutorial</a>
+      </li>
+      <li>
+        <i class="fa-li fa fa-graduation-cap"></i>
+        <a href="http://thesyntacticsugar.com.preview.binero.se/tying-the-knot-in-pictures/">Visualizing non-strict evaluation</a>
+      </li>
+      <li>
+        <i class="fa-li fa fa-graduation-cap"></i>
+        <a href="http://hangar.farmradio.fm/post/number-representation-in-digital-electronics-part-i/">Number representation in digital electronics</a>
+      </li>
+      <li>
+        <i class="fa-li fas fa-file-pdf"></i>
+        <a href="http://thesyntacticsugar.com.preview.binero.se/what-every-code-ninja-should-know-about-asymptotic-time-complexity-analysis-and-the-big-o-notation/">Asymptotic time-complexity analysis</a>
+      </li>
+    </ul>
+    <h2>
+      snap-rabbit
+    </h2>
+    <p>
+      WebSockets chat in Haskell using <b>RabbitMQ</b> and the <b>Snap</b> server.
+    </p>
+    <ul class="fa-ul">
+      <li>
+        <i class="fa-li fab fa-github"></i>
+        <a href="https://github.com/laserpants/snap-rabbit">GitHub</a>
+      </li>
+    </ul>
+    <h2>
+      Lambdapants
+    </h2>
+    <p>
+      An experimental REPL for the untyped <b>Lambda Calculus</b>, written in Idris.
+    </p>
+    <ul class="fa-ul">
+      <li>
+        <i class="fa-li fab fa-github"></i>
+        <a href="https://github.com/laserpants/lambdapants">GitHub</a>
+      </li>
+    </ul>
+  </div>
+  <script src="js/bundle.js"></script>
+</body>
+</html>
